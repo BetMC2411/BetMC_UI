@@ -116,6 +116,26 @@
     ]
   },
 
+  "option_generic_core/one_line_layout/option_label_subpanel_02": {
+    "modifications": [
+      {
+        "control_name": "option_label",
+        "operation": "replace",
+        "value": [
+          {
+            "option_label_replace@betmc_settings_common.betmc_option_label": {
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "text": "$option_label",
+              "color": "$main_header_text_color",
+              "bindings": "$label_bindings"
+            }
+          }
+        ]
+      }
+    ]
+  },
+
   "option_generic_core/two_line_layout": {
     "modifications": [
       {
@@ -139,6 +159,24 @@
   },
 
   "option_generic_core/two_line_layout/option_label_panel/option_label_subpanel_01": {
+    "modifications": [
+      {
+        "control_name": "option_label",
+        "operation": "replace",
+        "value": [
+          {
+            "option_label_replace@betmc_settings_common.betmc_option_label": {
+              "size": [ "100%", "default" ],
+              "text": "$option_label",
+              "bindings": "$label_bindings"
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "option_generic_core/two_line_layout/option_label_panel/option_label_subpanel_02": {
     "modifications": [
       {
         "control_name": "option_label",

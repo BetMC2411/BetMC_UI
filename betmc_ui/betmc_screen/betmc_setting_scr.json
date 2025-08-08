@@ -22,12 +22,14 @@
           "ignored": "(not $include_controls_and_settings_sections)"
         }
       },
+      /* New Version has been remove :((
       {
         "vr_button@betmc_settings.vr_button": {
           "$toggle_group_forced_index": "$vr_forced_index",
           "ignored": "(not $is_holographic or not $include_controls_and_settings_sections)"
         }
       },
+      */
       {
         "how_to_play_button@betmc_settings.how_to_play_button": {
           "$toggle_group_forced_index": "$how_to_play_index",
@@ -349,7 +351,13 @@
             },
             {
               "touch_section@controls_section.touch_section": {
-                "ignored": "($is_holographic or not $touch_supported or $nx_os)",
+                "ignored": "(not $touch_supported or $nx_os)",
+                "visible": false
+              }
+            },
+            {
+              "party_section@social_section.party_section": {
+                "ignored": "($education_edition or not $party_settings_enabled)",
                 "visible": false
               }
             },
@@ -359,6 +367,12 @@
               "global_texture_pack_section@general_section.global_texture_pack_section": {
                 "visible": false,
                 "ignored": "$ignore_global_resources_section"
+              }
+            },
+            {
+              "storage_management_header@general_section.storage_management_header": {
+                "visible": false,
+                "ignored": "$ignore_storage_section"
               }
             },
             {
@@ -375,6 +389,7 @@
             },
             { "creator_section@general_section.creator_section": { "visible": false } },
             { "video_section@general_section.video_section": { "visible": false } },
+            { "video_section_ore_ui@general_section.video_section_ore_ui": { "visible": false } },
             {
               "view_subscriptions_prerelease_section@general_section.view_subscriptions_prerelease_section": {
                 "ignored": "($education_edition or $is_editor_mode_enabled or not $pre_release)",
@@ -387,13 +402,15 @@
                 "visible": false
               }
             },
+            /* New Version has been remove :((
             {
               "vr_section@general_section.vr_section": {
                 "ignored": "(not $is_holographic)",
                 "visible": false
               }
-            },
+            }, */
             { "sound_section@general_section.sound_section": { "visible": false } },
+            { "sound_section_ore_ui@general_section.sound_section_ore_ui": { "visible": false } },
             {
               "language_section@general_section.language_section": {
                 "ignored": "(not $is_pregame)",
@@ -408,43 +425,55 @@
             },
             {
               "debug_section@general_section.debug_section": {
-                "ignored": "$is_publish",
+                "ignored": "(not $debug_settings)",
                 "visible": false
               }
             },
             {
               "ui_debug_section@general_section.ui_debug_section": {
-                "ignored": "$is_publish",
+                "ignored": "(not $debug_settings)",
                 "visible": false
               }
             },
             {
               "edu_debug_section@general_section.edu_debug_section": {
-                "ignored": "($is_publish or (not $education_edition))",
+                "ignored": "((not $debug_settings) or (not $education_edition))",
                 "visible": false
               }
             },
             {
               "marketplace_debug_section@general_section.marketplace_debug_section": {
-                "ignored": "$is_publish",
+                "ignored": "(not $debug_settings)",
                 "visible": false
               }
             },
             {
               "gatherings_debug_section@general_section.gatherings_debug_section": {
-                "ignored": "$is_publish",
+                "ignored": "(not $debug_settings)",
                 "visible": false
               }
             },
             {
               "flighting_debug_section@general_section.flighting_debug_section": {
-                "ignored": "$is_publish",
+                "ignored": "(not $debug_settings)",
+                "visible": false
+              }
+            },
+            {
+              "realms_debug_section@general_section.realms_debug_section": {
+                "ignored": "(not $debug_settings)",
                 "visible": false
               }
             },
             {
               "automation_section@general_section.automation_section": {
                 "ignored": "($is_publish or $test_infrastructure_disabled)",
+                "visible": false
+              }
+            },
+            {
+              "discovery_debug_section@general_section.discovery_debug_section": {
+                "ignored": "$is_publish",
                 "visible": false
               }
             },

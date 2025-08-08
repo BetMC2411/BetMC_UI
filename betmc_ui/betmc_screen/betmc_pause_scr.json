@@ -108,7 +108,7 @@
     "controls": [
       {
         "label_mot_lan_nua@betmc_pause.betmc_pause_label": {
-          "$betmc_chat_text_offset": [ 0, -2 ],
+          "$betmc_chat_text_offset": [ 0, -1 ],
           "$betmc_font_scale_factor": 0.85,
           "text": "pauseScreen.gameIsPaused",
           "anchor_from": "center",

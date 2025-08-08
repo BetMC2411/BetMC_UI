@@ -252,7 +252,7 @@
 
   "betmc_left_side_selector_area@betmc_common.empty_panel": {
     "offset": [ 2, 0 ],
-    "size": [ "40% - 3px", "100%" ],
+    "size": [ "30% - 3px", "100%" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "layer": 2,
@@ -280,7 +280,7 @@
 
   "betmc_right_side_content_area@betmc_common.empty_panel": {
     "offset": [ "-1px", 0 ],
-    "size": [ "60% - 8px", "100%" ],
+    "size": [ "70% - 8px", "100%" ],
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "layer": 1,
@@ -318,7 +318,7 @@
   },
 
   "betmc_section_divider@betmc_common.empty_image": {
-    "offset": [ "40%", 0 ],
+    "offset": [ "30%", 0 ],
     "size": [ 1, "100%" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",

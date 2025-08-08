@@ -125,12 +125,16 @@
   },
 
   "betmc_gui_scale_slider@settings_common.option_slider": {
-    "ignored": "($is_holographic)",
     "$option_label": "#gui_scale_slider_label",
     "$slider_name": "gui_scale",
     "$slider_value_binding_name": "#gui_scale",
     "$slider_tts_text_value": "#gui_scale_text_value",
     "$option_enabled_binding_name": "#gui_scale_enabled",
+    "$option_tooltip_binding_type": "global",
+    "$option_tooltip_area": "general_and_controls_sections",
+    "$option_tooltip_text_binding_name": "#gui_scale_disabled_option_tooltip_text",
+    "$option_tooltip_visible_binding_name": "#gui_scale_disabled_option_visible",
+
     "$slider_steps_binding_name": "#gui_scale_steps",
     "$label_bindings": [
       {
@@ -144,13 +148,6 @@
       }
     ],
     "controls": [
-      {
-        "gui_scale_disabled_option@general_section.gui_scale_disabled_option": {
-          "$gui_scale_disabled_option_visible": "#gui_scale_disabled_option_visible",
-          "$gui_scale_disabled_option_is_hovered_button_event": "button.gui_scale_disabled_option_is_hovered",
-          "$gui_scale_disabled_option_tooltip_visible": "#gui_scale_disabled_option_tooltip_visible"
-        }
-      },
       { "option_generic_core@settings_common.option_generic_core": {} }
     ]
   },
@@ -222,10 +219,12 @@
           "$option_label": "options.gui.accessibility.scaling",
           "$option_binding_name": "#gui_accessibility_scaling",
           "$option_enabled_binding_name": "#gui_accessibility_scaling_enabled",
+          "$option_tooltip_binding_type": "global",
+          "$option_tooltip_area": "general_and_controls_sections",
+          "$option_tooltip_text_binding_name": "#accessibility_scaling_option_tooltip_text",
           "$toggle_name": "gui_accessibility_scaling",
           "layer": 1,
           "controls": [
-            { "accessibility_scaling_option@general_section.accessibility_scaling_option": {} },
             { "option_generic_core@settings_common.option_generic_core": {} }
           ]
         }
