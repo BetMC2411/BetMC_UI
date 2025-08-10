@@ -222,10 +222,6 @@
         ]
       },
       {
-        "control_name": "file_storage_dropdown_edu",
-        "operation": "remove"
-      },
-      {
         "control_name": "clear_download_cache_button_panel",
         "operation": "remove"
       },

@@ -205,8 +205,18 @@
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "controls": [
-      { "selector_area@betmc_settings_common.selector_area": {} },
-      { "content_area@betmc_settings_common.content_area": {} },
+      {
+				"selector_area@betmc_settings_common.selector_area": {
+          "animation_reset_name": "screen_animation_reset",
+          "anims": [ "@betmc_anim.betmc_settings_section_out_anim_push", "@betmc_anim.betmc_settings_section_out_anim_pop", "@betmc_anim.betmc_settings_section_in_anim_push", "@betmc_anim.betmc_settings_section_in_anim_pop" ]
+				}
+			},
+      {
+				"content_area@betmc_settings_common.content_area": {
+          "animation_reset_name": "screen_animation_reset",
+          "anims": [ "@betmc_anim.betmc_setting_content_out_anim_push", "@betmc_anim.betmc_setting_content_out_anim_pop", "@betmc_anim.betmc_setting_content_in_anim_push", "@betmc_anim.betmc_setting_content_in_anim_pop" ]
+				}
+			},
       { "section_divider@betmc_settings_common.section_divider": {} }
     ]
   },

@@ -370,12 +370,6 @@
               }
             },
             {
-              "storage_management_header@general_section.storage_management_header": {
-                "visible": false,
-                "ignored": "$ignore_storage_section"
-              }
-            },
-            {
               "storage_management_section@general_section.storage_management_section": {
                 "visible": false,
                 "ignored": "$ignore_storage_section"
@@ -409,7 +403,8 @@
                 "visible": false
               }
             }, */
-            { "sound_section@general_section.sound_section": { "visible": false } },
+            { "betmc_sound_section@betmc_general_section.betmc_sound_section": { "visible": false } }, /* Remake by BetMC */
+          /*{ "sound_section@general_section.sound_section": { "visible": false } }, (Remove By BetMC hehe)*/
             { "sound_section_ore_ui@general_section.sound_section_ore_ui": { "visible": false } },
             {
               "language_section@general_section.language_section": {

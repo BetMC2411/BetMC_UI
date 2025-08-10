@@ -879,5 +879,249 @@
     "$betmc_dropdown_name_custom": "#advanced_graphics_options_grid_visible",
     "$betmc_dropdown_label_bindings_name": "#graphics_mode_toggle_label",
     "$betmc_dropdown_custom_content": "betmc_general_section.betmc_advanced_graphics_options_stack"
+  },
+
+  "betmc_sound_silder_option_stack_00@betmc_common.empty_stack_panel": {
+    "size": [ "50%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "option_slider_3@settings_common.option_slider": {
+          "$option_label": "#ambient_volume_slider_label",
+          "$slider_name": "ambient_volume",
+          "$slider_value_binding_name": "#ambient_volume",
+          "$slider_tts_text_value": "#ambient_volume_text_value",
+          "$option_enabled_binding_name": "#ambient_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_4@settings_common.option_slider": {
+          "$option_label": "#block_volume_slider_label",
+          "$slider_name": "block_volume",
+          "$slider_value_binding_name": "#block_volume",
+          "$slider_tts_text_value": "#block_volume_text_value",
+          "$option_enabled_binding_name": "#block_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_5@settings_common.option_slider": {
+          "$option_label": "#hostile_volume_slider_label",
+          "$slider_name": "hostile_volume",
+          "$slider_value_binding_name": "#hostile_volume",
+          "$slider_tts_text_value": "#hostile_volume_text_value",
+          "$option_enabled_binding_name": "#hostile_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_6@settings_common.option_slider": {
+          "$option_label": "#neutral_volume_slider_label",
+          "$slider_name": "neutral_volume",
+          "$slider_value_binding_name": "#neutral_volume",
+          "$slider_tts_text_value": "#neutral_volume_text_value",
+          "$option_enabled_binding_name": "#neutral_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "betmc_sound_silder_option_stack_01@betmc_common.empty_stack_panel": {
+    "size": [ "fill", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "option_slider_7@settings_common.option_slider": {
+          "$option_label": "#player_volume_slider_label",
+          "$slider_name": "player_volume",
+          "$slider_value_binding_name": "#player_volume",
+          "$slider_tts_text_value": "#player_volume_text_value",
+          "$option_enabled_binding_name": "#player_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_8@settings_common.option_slider": {
+          "$option_label": "#record_volume_slider_label",
+          "$slider_name": "record_volume",
+          "$slider_value_binding_name": "#record_volume",
+          "$slider_tts_text_value": "#record_volume_text_value",
+          "$option_enabled_binding_name": "#record_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_9@settings_common.option_slider": {
+          "$option_label": "#weather_volume_slider_label",
+          "$slider_name": "weather_volume",
+          "$slider_value_binding_name": "#weather_volume",
+          "$slider_tts_text_value": "#weather_volume_text_value",
+          "$option_enabled_binding_name": "#weather_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_10@settings_common.option_slider": {
+          "$option_label": "#texttospeech_volume_slider_label",
+          "$slider_name": "texttospeech_volume",
+          "$slider_value_binding_name": "#texttospeech_volume",
+          "$slider_tts_text_value": "#texttospeech_volume_text_value",
+          "$option_enabled_binding_name": "#texttospeech_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "betmc_sound_section@betmc_common.empty_stack_panel": {
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "sound_button_toggle",
+        "source_property_name": "(#toggle_state and not $use_ore_ui_settings_audio)",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "option_slider_0@settings_common.option_slider": {
+          "$option_label": "#main_volume_slider_label",
+          "$slider_name": "main_volume",
+          "$slider_value_binding_name": "#main_volume",
+          "$slider_tts_text_value": "#main_volume_text_value",
+          "$option_enabled_binding_name": "#main_volume_enabled",
+          "$focus_override_up": "FOCUS_OVERRIDE_STOP",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "betmc_divider_audio_settings_01@betmc_common.empty_panel": {
+          "size": [ "100%", "100%c + 14px" ],
+          "controls": [
+            {
+              "section_divider@betmc_common.empty_image": {
+                "size": [ "100%", 1 ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "texture": "textures/ui/list_item_divider_line_light",
+                "layer": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_1@settings_common.option_slider": {
+          "$option_label": "#music_volume_slider_label",
+          "$slider_name": "music_volume",
+          "$slider_value_binding_name": "#music_volume",
+          "$slider_tts_text_value": "#music_volume_text_value",
+          "$option_enabled_binding_name": "#music_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_2@settings_common.option_slider": {
+          "$option_label": "#sound_volume_slider_label",
+          "$slider_name": "sound_volume",
+          "$slider_value_binding_name": "#sound_volume",
+          "$slider_tts_text_value": "#sound_volume_text_value",
+          "$option_enabled_binding_name": "#sound_volume_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "betmc_divider_audio_settings_01@betmc_common.empty_panel": {
+          "size": [ "100%", "100%c + 14px" ],
+          "controls": [
+            {
+              "section_divider@betmc_common.empty_image": {
+                "size": [ "100%", 1 ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "texture": "textures/ui/list_item_divider_line_light",
+                "layer": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "betmc_sound_silder_option_stack@betmc_common.betmc_stack_horizontal_with_controls": {
+          "$betmc_stack_horizontal_with_controls_size": [ "100%", "100%cm + 5px" ],
+          "$betmc_stack_horizontal_controls": [
+            { "betmc_sound_silder_option_stack_00@betmc_general_section.betmc_sound_silder_option_stack_00": {} },
+            {
+              "betmc_divider_audio_settings@betmc_common.empty_panel": {
+                "size": [ 3, 0 ]
+              }
+            },
+            { "betmc_sound_silder_option_stack_01@betmc_general_section.betmc_sound_silder_option_stack_01": {} }
+          ]
+        }
+      },
+      {
+        "reset_button@settings_common.action_button": {
+          "ignored": "(not $is_pregame)",
+          "$pressed_button_name": "button.reset_settings",
+          "$button_text": "options.resetSettings",
+          "$focus_override_down": "FOCUS_OVERRIDE_STOP",
+          "property_bag": {
+            "reset_group": "audio"
+          }
+        }
+      }
+    ]
   }
 }

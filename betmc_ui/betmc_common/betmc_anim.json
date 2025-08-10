@@ -83,6 +83,88 @@
     "end_event": "screen.entrance_end"
   },
 
+  /*-- SETTINGS SECTION ANIMATED CONTENT [LEFT TO RIGHT] --*/
+  "betmc_settings_section_out_anim_push": {
+    "anim_type": "offset",
+    "easing": "in_cubic",
+    "duration": "$transition_time_push",
+    "from": [ 2, "21px" ],
+    "to": [ "-25%", "21px" ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+  
+  "betmc_settings_section_out_anim_pop": {
+    "anim_type": "offset",
+    "easing": "in_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ 2, "21px" ],
+    "to": [ "-25%", "21px" ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+  
+  "betmc_settings_section_in_anim_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ "-25%", "21px" ],
+    "to": [ 2, "21px" ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+  
+  "betmc_settings_section_in_anim_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ "-25%", "21px" ],
+    "to": [ 2, "21px" ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+
+  /*-- SETTINGS CONTENT ANIMATED CONTENT [RIGHT TO LEFT] --*/
+  "betmc_setting_content_out_anim_push": {
+    "anim_type": "offset",
+    "easing": "in_cubic",
+    "duration": "$transition_time_push",
+    "from": [ "-1px", "21px" ],
+    "to": [ "25%", "21px" ],
+    "play_event": "screen.exit_push",
+    "end_event": "screen.exit_end"
+  },
+  
+  "betmc_setting_content_out_anim_pop": {
+    "anim_type": "offset",
+    "easing": "in_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ "-1px", "21px" ],
+    "to": [ "25%", "21px" ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+  
+  "betmc_setting_content_in_anim_push": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_push",
+    "from": [ "25%", "21px" ],
+    "to": [ "-1px", "21px" ],
+    "play_event": "screen.entrance_push",
+    "end_event": "screen.entrance_end"
+  },
+  
+  "betmc_setting_content_in_anim_pop": {
+    "anim_type": "offset",
+    "easing": "out_cubic",
+    "duration": "$transition_time_pop",
+    "from": [ "25%", "21px" ],
+    "to": [ "-1px", "21px" ],
+    "play_event": "screen.entrance_pop",
+    "end_event": "screen.entrance_end"
+  },
+
   //BETMC_BACKGROUND_ANIMATION
   "screen_exit_animation_push_alpha": {
     "ignored": true
