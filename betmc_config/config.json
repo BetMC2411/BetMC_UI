@@ -12,9 +12,10 @@
     "$betmc_hide_enchanted_text|default": true, //HIDE ENCHANTED ITEM TEXT | true/false
     "$betmc_show_text_background|default": true, //SHOW BACKGROUND ITEM TEXT | true/false
     "$betmc_enable_chunk_position|default": true, //SHOW CHUNK POSITITON LABEL | true/false
-    "$betmc_enable_nether_position|default": true, //SHOW NETHER POSITION LABEL | true/false
-    "$betmc_enable_overworld_position|default": true, //SHOW OVERWORLD POSITION LABEL | true/false
+    "$betmc_enable_nether_position|default": false, //SHOW NETHER POSITION LABEL | true/false
+    "$betmc_enable_overworld_position|default": false, //SHOW OVERWORLD POSITION LABEL | true/false
     "$betmc_enable_item_id|default": false, //SHOW ITEM ID VIEWER LABEL | true/false
+    "$betmc_enable_highlight_items|default": false, //SHOW HIGHLIGHT ITEMS | true/false
     
     "$betmc_enable_world_folder|default": true, //ENABLE WORLD FOLDER IN PLAY SCREEN (WINDOWS, IOS, ANDROID ONLY)
     

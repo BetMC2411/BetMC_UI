@@ -6,7 +6,7 @@
   },
 
   "text_edit_box": {
-    "$text_edit_box_label_offset|default": [ 0, -1 ]
+    "$text_edit_box_label_offset|default": [0, -1]
   },
 
   "text_edit_box/centering_panel/clipper_panel/$text_edit_text_control": {
@@ -16,7 +16,7 @@
   "stack_count_label": {
     "font_type": "smooth"
   },
-  
+
   "inventory_screen_common": {
     "$screen_animations": [
       "@common.screen_exit_animation_push_fade",
@@ -25,7 +25,7 @@
       "@common.screen_entrance_animation_pop_fade"
     ]
   },
-  
+
   "text_edit_box_label@betmc_common.empty_label_font_custom": {
     "localize": false,
     "text": "#item_name",
@@ -38,7 +38,7 @@
     "alpha": "$text_alpha",
     "locked_alpha": "$locked_text_alpha",
     "$text_alpha|default": 1.0,
-    "$locked_color|default": [ 1.0, 1.0, 1.0, 1.0 ],
+    "$locked_color|default": [1.0, 1.0, 1.0, 1.0],
     "$locked_text_alpha|default": 0.5,
     "$text_color_binding_name|default": "#edit_box_text_color",
     "$text_color_binding_type|default": "none",
@@ -111,7 +111,26 @@
               ],
               "controls": "$betmc_button_ref"
             }
-          }
+          },
+          { "selected_item_highlight@betmc_common.selected_item_highlight": {} }
+        ]
+      }
+    ]
+  },
+
+  "highlight_slot_panel/highlight": {
+    "bindings": [
+      {
+        "binding_name": "#show_persistent_bundle_hover_text",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "modifications": [
+      {
+        "control_name": "hover_text",
+        "operation": "replace",
+        "value": [
+          { "betmc_hover_label@betmc_common.betmc_hover_label": {} }
         ]
       }
     ]

@@ -2619,6 +2619,7 @@
 
   "betmc_exp_percent_label@betmc_hud.betmc_hud_label": {
     "$betmc_progress_text_offset": [2, -3],
+    "$betmc_exp_percent_source_property_name": "('§z' + #betmc_exp_amount_2 / 10 + '.' + #betmc_exp_decimal + '%%')",
     "$betmc_label_color": "$experience_text_color",
     "text": "#text",
     "shadow": true,
@@ -2649,7 +2650,7 @@
       },
       {
         "binding_type": "view",
-        "source_property_name": "('§z' + #betmc_exp_amount_2 / 10 + '.' + #betmc_exp_decimal + '%%')",
+        "source_property_name": "$betmc_exp_percent_source_property_name",
         "target_property_name": "#text"
       }
     ]
