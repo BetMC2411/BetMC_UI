@@ -501,6 +501,22 @@
     ]
   },
 
+  "betmc_gif_images@betmc_common.empty_custom": {
+    "renderer": "animated_gif_renderer",
+    "layer": 100,
+    "size": [180, 180],
+    "property_bag": {
+      "#betmc_gif_location": "betmc_res/betmc_gif/betmc_evernight.gif"
+    },
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_property_name": "#betmc_gif_location",
+        "target_property_name": "#betmc_gif_location"
+      }
+    ]
+  },
+
   "betmc_hover_label@betmc_common.empty_custom": {
     "$hover_text_binding_name|default": "#hover_text",
     "$hover_text_max_width|default": 0,

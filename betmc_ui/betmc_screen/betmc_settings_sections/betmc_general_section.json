@@ -109,6 +109,20 @@
     ]
   },
 
+  "betmc_build_info_label@betmc_common.empty_label": {
+    "font_type": "smooth",
+    "color": "$body_text_color",
+    "offset": [2, 0],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "text": "#build_information",
+    "bindings": [
+      {
+        "binding_name": "#build_information"
+      }
+    ]
+  },
+
   "betmc_section_divider_panel@betmc_common.empty_panel": {
     "size": [ "100%", "100%c + 14px" ],
     "controls": [
@@ -328,17 +342,42 @@
     ]
   },
 
-  "betmc_build_info_label_stack@betmc_common.empty_stack_panel": {
+  "betmc_build_info_label_stack@betmc_common.empty_stack_panel": { //OLD VERSION
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "controls": [
+      { "betmc_build_info_label@betmc_general_section.betmc_build_info_label": {} },
+      { "betmc_treatment_ids@betmc_general_section.betmc_treatment_ids": { "ignored": true } },
       { "betmc_version@betmc_general_section.betmc_version": {} },
       { "betmc_build_id@betmc_general_section.betmc_build_id": {} },
       { "betmc_network_info@betmc_general_section.betmc_network_info": { "ignored": true } },
       { "betmc_protocol_version@betmc_general_section.betmc_protocol_version": {} },
-      { "betmc_treatment_ids@betmc_general_section.betmc_treatment_ids": { "ignored": true } },
       { "betmc_build_date@betmc_general_section.betmc_build_date": { "ignored": true } },
       { "betmc_world_conversion_version@betmc_general_section.betmc_world_conversion_version": { "ignored": true } }
+    ]
+  },
+
+  "betmc_build_info_label_panel@betmc_common.empty_button": { //NEW VERSION
+    "size": ["100%", "100%c"],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.copy_build_info",
+        "mapping_type": "pressed"
+      }
+    ],
+    "controls": [
+      {
+        "betmc_build_info_label_stack@betmc_common.empty_stack_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            { "betmc_build_info_label@betmc_general_section.betmc_build_info_label": {} },
+            { "betmc_build_info_label_padding@betmc_common.empty_panel": { "size": [ "100%", 8 ] }},
+            { "betmc_treatment_ids@betmc_general_section.betmc_treatment_ids": { "ignored": true }}
+          ]
+        }
+      }
     ]
   },
 

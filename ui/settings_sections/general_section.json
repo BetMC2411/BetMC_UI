@@ -137,10 +137,12 @@
     "size": [ "100%", "100%c + 14px" ]
   },
 
+  /* OLD VERSION
   "general_tab_section/build_info_label_panel/paddingVersionLabel": {
     "ignored": true
   },
-
+  */
+  
   "general_tab_section": {
     "modifications": [
       {
@@ -289,8 +291,19 @@
         "control_name": "build_info_label_panel",
         "operation": "replace",
         "value": [
+          { "betmc_build_info_label@betmc_general_section.betmc_build_info_label_panel": {} }
+          /* OLD CODE VERSION
           { "betmc_build_info_label_stack@betmc_general_section.betmc_build_info_label_stack": {} }
+          */
         ]
+      },
+      {
+        "control_name": "paddingSectionDividerBuildInfo",
+        "operation": "remove"
+      },
+      {
+        "control_name": "treatment_ids_label",
+        "operation": "remove"
       }
     ]
   },
@@ -299,6 +312,11 @@
     "$spatialPatternsPadding": [ "100%", 4 ]
   },
 
+  "account_section/account_info_buttom/account_info_label": {
+    "font_type": "smooth"
+  },
+
+  /* OLD VERSION
   "account_section/device_id_label": {
     "font_type": "smooth"
   },
@@ -306,6 +324,7 @@
   "account_section/MinecraftAccount_id_label": {
     "font_type": "smooth"
   },
+  */
 
   "account_section": {
     "modifications": [
