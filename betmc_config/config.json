@@ -3,7 +3,7 @@
   "betmc_main_config": {
     "$betmc_compass_id|default": 417, //COMPASS ITEM ID
     "$betmc_clock_id|default": 419, //CLOCK ITEM ID
-    "$betmc_recovery_compass_id|default": 683, //RECOVERY COMPASS ITEM ID
+    "$betmc_recovery_compass_id|default": 682, //RECOVERY COMPASS ITEM ID
 
     "$betmc_bow_id|default": 324, //BOW ITEM ID
     "$betmc_crossbow_id|default": 608, //CROSSBOW ITEM ID
@@ -15,7 +15,7 @@
     "$betmc_enable_nether_position|default": false, //SHOW NETHER POSITION LABEL | true/false
     "$betmc_enable_overworld_position|default": false, //SHOW OVERWORLD POSITION LABEL | true/false
     "$betmc_enable_item_id|default": false, //SHOW ITEM ID VIEWER LABEL | true/false
-    "$betmc_enable_highlight_items|default": false, //SHOW HIGHLIGHT ITEMS | true/false
+    "$betmc_enable_highlight_items|default": true, //SHOW HIGHLIGHT ITEMS | true/false
     
     "$betmc_enable_world_folder|default": true, //ENABLE WORLD FOLDER IN PLAY SCREEN (WINDOWS, IOS, ANDROID ONLY)
     
