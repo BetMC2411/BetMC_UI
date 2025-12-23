@@ -50,4 +50,5 @@
     "$betmc_stack_vertical_with_controls_size|default": [ 0, 0 ], //SIZE PANEL
     "$betmc_stack_horizontal_with_controls_size|default": [ 0, 0 ] //SIZE PANEL
   }
+
 }
