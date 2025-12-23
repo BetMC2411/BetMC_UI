@@ -1,9 +1,9 @@
 {
   "namespace": "betmc_config",
   "betmc_main_config": {
-    "$betmc_compass_id|default": 417, //COMPASS ITEM ID
-    "$betmc_clock_id|default": 419, //CLOCK ITEM ID
-    "$betmc_recovery_compass_id|default": 682, //RECOVERY COMPASS ITEM ID
+    "$betmc_compass_id|default": 423, //COMPASS ITEM ID
+    "$betmc_clock_id|default": 425, //CLOCK ITEM ID
+    "$betmc_recovery_compass_id|default": 688, //RECOVERY COMPASS ITEM ID
 
     "$betmc_bow_id|default": 324, //BOW ITEM ID
     "$betmc_crossbow_id|default": 608, //CROSSBOW ITEM ID
@@ -50,4 +50,5 @@
     "$betmc_stack_vertical_with_controls_size|default": [ 0, 0 ], //SIZE PANEL
     "$betmc_stack_horizontal_with_controls_size|default": [ 0, 0 ] //SIZE PANEL
   }
+
 }
