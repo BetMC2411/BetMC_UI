@@ -5,9 +5,9 @@
     "$betmc_clock_id|default": 425, //CLOCK ITEM ID
     "$betmc_recovery_compass_id|default": 688, //RECOVERY COMPASS ITEM ID
 
-    "$betmc_bow_id|default": 324, //BOW ITEM ID
-    "$betmc_crossbow_id|default": 608, //CROSSBOW ITEM ID
-    "$betmc_arrow_id|default": 325, //ARROW ITEM ID
+    "$betmc_bow_id|default": 331, //BOW ITEM ID
+    "$betmc_crossbow_id|default": 614, //CROSSBOW ITEM ID
+    "$betmc_arrow_id|default": 332, //ARROW ITEM ID
 
     "$betmc_hide_enchanted_text|default": true, //HIDE ENCHANTED ITEM TEXT | true/false
     "$betmc_show_text_background|default": true, //SHOW BACKGROUND ITEM TEXT | true/false
