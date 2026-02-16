@@ -370,10 +370,10 @@
       }
     ]
   },
-
+  /* OLD VERSION
   "creator_toggles_panel/creator_setting_button": {
     "size": [ "100%", 20 ]
-  },
+  },*/
 
   "content_log_panel/content_log_buttons": {
     "size": [ "100%", 20 ]

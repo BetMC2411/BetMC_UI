@@ -383,7 +383,12 @@
             },
             { "creator_section@general_section.creator_section": { "visible": false } },
             { "video_section@general_section.video_section": { "visible": false } },
-            { "video_section_ore_ui@general_section.video_section_ore_ui": { "visible": false } },
+            /* New Version has been remove :((
+            {
+              "video_section_ore_ui@general_section.video_section_ore_ui": {
+                "visible": false
+              }
+            },*/
             {
               "view_subscriptions_prerelease_section@general_section.view_subscriptions_prerelease_section": {
                 "ignored": "($education_edition or $is_editor_mode_enabled or not $pre_release)",
@@ -404,8 +409,8 @@
               }
             }, */
             { "betmc_sound_section@betmc_general_section.betmc_sound_section": { "visible": false } }, /* Remake by BetMC */
-          /*{ "sound_section@general_section.sound_section": { "visible": false } }, (Remove By BetMC hehe)*/
-            { "sound_section_ore_ui@general_section.sound_section_ore_ui": { "visible": false } },
+          /*{ "sound_section@general_section.sound_section": { "visible": false } }, (Remove By BetMC hehe)
+            { "sound_section_ore_ui@general_section.sound_section_ore_ui": { "visible": false } }, (New Version has been remove) */
             {
               "language_section@general_section.language_section": {
                 "ignored": "(not $is_pregame)",

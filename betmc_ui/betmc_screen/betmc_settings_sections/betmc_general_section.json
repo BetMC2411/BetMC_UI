@@ -1056,7 +1056,7 @@
       {
         "binding_type": "view",
         "source_control_name": "sound_button_toggle",
-        "source_property_name": "(#toggle_state and not $use_ore_ui_settings_audio)",
+        "source_property_name": "#toggle_state",
         "target_property_name": "#visible"
       }
     ],
