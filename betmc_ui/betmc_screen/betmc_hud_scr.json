@@ -2669,6 +2669,17 @@
       },
       {
         "binding_type": "view",
+        "source_property_name": "('0' + #level_number)",
+        "target_property_name": "#betmc_lv_int"
+      },
+      /* ONLY WORK FOR OLD Minecraft
+      {
+        "binding_type": "view",
+        "source_property_name": "(#level_number * 1)",
+        "target_property_name": "#betmc_lv_int"
+      },*/
+      {
+        "binding_type": "view",
         "source_property_name": "(#level_number * 1)",
         "target_property_name": "#betmc_lv_int"
       },

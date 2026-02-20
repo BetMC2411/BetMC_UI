@@ -19,10 +19,10 @@
     
     "$betmc_enable_world_folder|default": true, //ENABLE WORLD FOLDER IN PLAY SCREEN (WINDOWS, IOS, ANDROID ONLY)
     
-    "$betmc_start_label_font_type|default": "SamsungOne700", //FONT TYPE (Roboto | NotoSans | Nunito | ComicRelief | SamsungOne700)
-    "$betmc_button_text_font_type|default": "SamsungOne700", //FONT TYPE (Roboto | NotoSans | Nunito | ComicRelief | SamsungOne700)
-    "$betmc_label_font_type|default": "SamsungOne700", //FONT TYPE (Roboto | NotoSans | Nunito | ComicRelief | SamsungOne700)
-    "$betmc_dialog_font_type|default": "SamsungOne700", //FONT TYPE (Roboto | NotoSans | Nunito | ComicRelief | SamsungOne700)
+    "$betmc_start_label_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+    "$betmc_button_text_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+    "$betmc_label_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
+    "$betmc_dialog_font_type|default": "NotoSans", //FONT TYPE ( NotoSans | Nunito | ComicRelief | SamsungOne700)
 
     "$betmc_use_button_icon|default": false, // true/false
     "$betmc_settings_button_icon_textures|default": "betmc_res/betmc_button/betmc_transparent", // PATH BUTTON SETTING ICON IMAGE
