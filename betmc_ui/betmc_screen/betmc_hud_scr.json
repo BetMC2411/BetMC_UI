@@ -2680,11 +2680,6 @@
       },*/
       {
         "binding_type": "view",
-        "source_property_name": "(#level_number * 1)",
-        "target_property_name": "#betmc_lv_int"
-      },
-      {
-        "binding_type": "view",
         "source_property_name": "((2 * #betmc_lv_int + 7) * (#betmc_lv_int < 16))",
         "target_property_name": "#betmc_nl_1"
       },
